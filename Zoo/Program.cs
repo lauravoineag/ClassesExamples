@@ -6,9 +6,14 @@ var bob=new Animal("Bob");
 var sunshine = new Animal("Sunshine");
 
 sunshine.PrintMessage();
+
+
 bob.PrintMessage();
 bob.ChangeMessage("Changing Message");
+
+sunshine.ChangeColour("blue");
 sunshine.PrintMessage();
-bob.PrintMessage();
-bob.PrintMessage();
+
+
+bob.PrintMessage();//one shared colour 
 
